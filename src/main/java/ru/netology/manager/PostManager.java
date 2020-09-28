@@ -1,5 +1,4 @@
-package manager;
-
+package ru.netology.manager;
 import ru.netology.domain.VKPost;
 
 public class PostManager {
@@ -12,11 +11,5 @@ public class PostManager {
 
     public void delete(int ID, int ownerId) {
     }
-
-    public VKPost[] getPosts() {
-        return posts;
-    }
-    public void setPosts(VKPost[] posts) {
-        this.posts = posts;
-    }
 }
+

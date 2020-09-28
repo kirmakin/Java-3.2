@@ -20,7 +20,7 @@ public class VKPost {
     private int signerId;
     private int canPin;
     private int canDelete;
-    private int isPinned;
+    private boolean isPinned;
     private int markedAsAds;
     private boolean isFavorite;
     private int postponedId;
@@ -173,11 +173,11 @@ public class VKPost {
     public void setCanDelete(int canDelete) {
         this.canDelete = canDelete;
     }
-    public int getIsPinned() {
+    public boolean getIsPinned() {
         return isPinned;
     }
 
-    public void setIsPinned(int isPinned) {
+    public void setIsPinned(boolean isPinned) {
         this.isPinned = isPinned;
     }
 
