@@ -184,7 +184,6 @@ public class VKPost {
     public int isMarkedAsAds() {
         return markedAsAds;
     }
-
     public void setMarkedAsAds(int markedAsAds) {
         this.markedAsAds = markedAsAds;
     }
