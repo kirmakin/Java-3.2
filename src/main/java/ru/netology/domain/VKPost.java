@@ -187,7 +187,6 @@ public class VKPost {
 
     public void setMarkedAsAds(int markedAsAds) {
         this.markedAsAds = markedAsAds;
-        
     }
 
     public boolean isFavorite() {
